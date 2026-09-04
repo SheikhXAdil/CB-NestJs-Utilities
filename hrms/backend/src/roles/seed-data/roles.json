@@ -1,0 +1,23 @@
+[
+  {
+    "roleName": "employee",
+    "permissions": [
+      {
+        "entity": "User",
+        "permission": "create"
+      },
+      {
+        "entity": "User",
+        "permission": "read"
+      },
+      {
+        "entity": "User",
+        "permission": "update"
+      },
+      {
+        "entity": "User",
+        "permission": "delete"
+      }
+    ]
+  }
+]

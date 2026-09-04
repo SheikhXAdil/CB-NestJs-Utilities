@@ -1,0 +1,248 @@
+[
+  {
+    "roleName": "Owner",
+    "permissions": [
+      { "entity": "Role", "permission": "Create", "visibility": false },
+      { "entity": "Role", "permission": "Show", "visibility": false },
+      { "entity": "Role", "permission": "Edit", "visibility": false },
+      { "entity": "Role", "permission": "Delete", "visibility": false },
+      { "entity": "Role", "permission": "Manage", "visibility": false },
+
+      { "entity": "Permission", "permission": "Create", "visibility": false },
+      { "entity": "Permission", "permission": "Show", "visibility": false },
+      { "entity": "Permission", "permission": "Edit", "visibility": false },
+      { "entity": "Permission", "permission": "Delete", "visibility": false },
+      { "entity": "Permission", "permission": "Manage", "visibility": false },
+
+      { "entity": "User", "permission": "Create", "visibility": true },
+      { "entity": "User", "permission": "Show", "visibility": false },
+      { "entity": "User", "permission": "Edit", "visibility": true },
+      { "entity": "User", "permission": "Delete", "visibility": true },
+      { "entity": "User", "permission": "Manage", "visibility": true },
+
+      { "entity": "Client", "permission": "Manage", "visibility": true },
+      { "entity": "Client", "permission": "Create", "visibility": true },
+      { "entity": "Client", "permission": "Show", "visibility": true },
+      { "entity": "Client", "permission": "Edit", "visibility": true },
+      { "entity": "Client", "permission": "Delete", "visibility": true },
+
+      { "entity": "Driver", "permission": "Manage", "visibility": true },
+      { "entity": "Driver", "permission": "Create", "visibility": true },
+      { "entity": "Driver", "permission": "Show", "visibility": true },
+      { "entity": "Driver", "permission": "Edit", "visibility": true },
+      { "entity": "Driver", "permission": "Delete", "visibility": true },
+
+      { "entity": "VehicleType", "permission": "Manage", "visibility": true },
+      { "entity": "VehicleType", "permission": "Create", "visibility": true },
+      { "entity": "VehicleType", "permission": "Show", "visibility": false },
+      { "entity": "VehicleType", "permission": "Edit", "visibility": true },
+      { "entity": "VehicleType", "permission": "Delete", "visibility": true },
+
+      { "entity": "Vehicle", "permission": "Manage", "visibility": true },
+      { "entity": "Vehicle", "permission": "Create", "visibility": true },
+      { "entity": "Vehicle", "permission": "Show", "visibility": true },
+      { "entity": "Vehicle", "permission": "Edit", "visibility": true },
+      { "entity": "Vehicle", "permission": "Delete", "visibility": true },
+
+      { "entity": "Inspection", "permission": "Manage", "visibility": true },
+      { "entity": "Inspection", "permission": "Create", "visibility": true },
+      { "entity": "Inspection", "permission": "Show", "visibility": true },
+      { "entity": "Inspection", "permission": "Edit", "visibility": true },
+      { "entity": "Inspection", "permission": "Delete", "visibility": true },
+
+      {
+        "entity": "InspectionType",
+        "permission": "Manage",
+        "visibility": true
+      },
+      {
+        "entity": "InspectionType",
+        "permission": "Create",
+        "visibility": true
+      },
+      { "entity": "InspectionType", "permission": "Show", "visibility": false },
+      { "entity": "InspectionType", "permission": "Edit", "visibility": true },
+      {
+        "entity": "InspectionType",
+        "permission": "Delete",
+        "visibility": true
+      },
+
+      { "entity": "Booking", "permission": "Manage", "visibility": true },
+      { "entity": "Booking", "permission": "Create", "visibility": true },
+      { "entity": "Booking", "permission": "Show", "visibility": true },
+      { "entity": "Booking", "permission": "Edit", "visibility": true },
+      { "entity": "Booking", "permission": "Delete", "visibility": true },
+
+      { "entity": "Service", "permission": "Manage", "visibility": true },
+      { "entity": "Service", "permission": "Create", "visibility": true },
+      { "entity": "Service", "permission": "Show", "visibility": true },
+      { "entity": "Service", "permission": "Edit", "visibility": true },
+      { "entity": "Service", "permission": "Delete", "visibility": true },
+
+      { "entity": "Fuel", "permission": "Manage", "visibility": true },
+      { "entity": "Fuel", "permission": "Create", "visibility": true },
+      { "entity": "Fuel", "permission": "Show", "visibility": true },
+      { "entity": "Fuel", "permission": "Edit", "visibility": true },
+      { "entity": "Fuel", "permission": "Delete", "visibility": true },
+
+      { "entity": "Expense", "permission": "Manage", "visibility": true },
+      { "entity": "Expense", "permission": "Create", "visibility": true },
+      { "entity": "Expense", "permission": "Show", "visibility": false },
+      { "entity": "Expense", "permission": "Edit", "visibility": true },
+      { "entity": "Expense", "permission": "Delete", "visibility": true },
+
+      { "entity": "Contact", "permission": "Manage", "visibility": true },
+      { "entity": "Contact", "permission": "Create", "visibility": true },
+      { "entity": "Contact", "permission": "Show", "visibility": false },
+      { "entity": "Contact", "permission": "Edit", "visibility": true },
+      { "entity": "Contact", "permission": "Delete", "visibility": true },
+
+      { "entity": "Note", "permission": "Manage", "visibility": true },
+      { "entity": "Note", "permission": "Create", "visibility": true },
+      { "entity": "Note", "permission": "Show", "visibility": false },
+      { "entity": "Note", "permission": "Edit", "visibility": true },
+      { "entity": "Note", "permission": "Delete", "visibility": true },
+
+      { "entity": "LoggedHistory", "permission": "Manage", "visibility": true },
+      {
+        "entity": "LoggedHistory",
+        "permission": "Create",
+        "visibility": false
+      },
+      { "entity": "LoggedHistory", "permission": "Show", "visibility": false },
+      { "entity": "LoggedHistory", "permission": "Edit", "visibility": false },
+      { "entity": "LoggedHistory", "permission": "Delete", "visibility": true },
+
+      {
+        "entity": "PricingTransaction",
+        "permission": "Manage",
+        "visibility": true
+      },
+      {
+        "entity": "PricingTransaction",
+        "permission": "Create",
+        "visibility": false
+      },
+      {
+        "entity": "PricingTransaction",
+        "permission": "Show",
+        "visibility": false
+      },
+      {
+        "entity": "PricingTransaction",
+        "permission": "Edit",
+        "visibility": false
+      },
+      {
+        "entity": "PricingTransaction",
+        "permission": "Delete",
+        "visibility": false
+      },
+
+      {
+        "entity": "AccountSettings",
+        "permission": "Manage",
+        "visibility": true
+      },
+      {
+        "entity": "AccountSettings",
+        "permission": "Create",
+        "visibility": false
+      },
+      {
+        "entity": "AccountSettings",
+        "permission": "Show",
+        "visibility": false
+      },
+      {
+        "entity": "AccountSettings",
+        "permission": "Edit",
+        "visibility": false
+      },
+      {
+        "entity": "AccountSettings",
+        "permission": "Delete",
+        "visibility": false
+      },
+
+      {
+        "entity": "PasswordSettings",
+        "permission": "Manage",
+        "visibility": true
+      },
+      {
+        "entity": "PasswordSettings",
+        "permission": "Create",
+        "visibility": false
+      },
+      {
+        "entity": "PasswordSettings",
+        "permission": "Show",
+        "visibility": false
+      },
+      {
+        "entity": "PasswordSettings",
+        "permission": "Edit",
+        "visibility": false
+      },
+      {
+        "entity": "PasswordSettings",
+        "permission": "Delete",
+        "visibility": false
+      },
+
+      {
+        "entity": "GeneralSettings",
+        "permission": "Manage",
+        "visibility": true
+      },
+      {
+        "entity": "GeneralSettings",
+        "permission": "Create",
+        "visibility": false
+      },
+      {
+        "entity": "GeneralSettings",
+        "permission": "Show",
+        "visibility": false
+      },
+      {
+        "entity": "GeneralSettings",
+        "permission": "Edit",
+        "visibility": false
+      },
+      {
+        "entity": "GeneralSettings",
+        "permission": "Delete",
+        "visibility": false
+      },
+
+      {
+        "entity": "CompanySettings",
+        "permission": "Manage",
+        "visibility": true
+      },
+      {
+        "entity": "CompanySettings",
+        "permission": "Create",
+        "visibility": false
+      },
+      {
+        "entity": "CompanySettings",
+        "permission": "Show",
+        "visibility": false
+      },
+      {
+        "entity": "CompanySettings",
+        "permission": "Edit",
+        "visibility": false
+      },
+      {
+        "entity": "CompanySettings",
+        "permission": "Delete",
+        "visibility": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "entity": "User",
+    "permission": "create"
+  },
+  {
+    "entity": "User",
+    "permission": "read"
+  },
+  {
+    "entity": "User",
+    "permission": "update"
+  },
+  {
+    "entity": "User",
+    "permission": "delete"
+  },
+  {
+    "entity": "User",
+    "permission": "manage"
+  },
+  {
+    "entity": "Role",
+    "permission": "create"
+  },
+  {
+    "entity": "Role",
+    "permission": "read"
+  },
+  {
+    "entity": "Role",
+    "permission": "update"
+  },
+  {
+    "entity": "Role",
+    "permission": "delete"
+  },
+  {
+    "entity": "Role",
+    "permission": "manage"
+  },
+  {
+    "entity": "Permission",
+    "permission": "create"
+  },
+  {
+    "entity": "Permission",
+    "permission": "read"
+  },
+  {
+    "entity": "Permission",
+    "permission": "update"
+  },
+  {
+    "entity": "Permission",
+    "permission": "delete"
+  },
+  {
+    "entity": "Permission",
+    "permission": "manage"
+  }
+]
